@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A834D4DC2A7EC62900C49378 /* kidzPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D4DB2A7EC62900C49378 /* kidzPlaygroundApp.swift */; };
-		A834D4DE2A7EC62900C49378 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D4DD2A7EC62900C49378 /* ContentView.swift */; };
+		A834D4DE2A7EC62900C49378 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D4DD2A7EC62900C49378 /* SigninView.swift */; };
 		A834D4E02A7EC62900C49378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A834D4DF2A7EC62900C49378 /* Assets.xcassets */; };
 		A834D4E32A7EC62900C49378 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A834D4E22A7EC62900C49378 /* Preview Assets.xcassets */; };
 		A834D4ED2A7EC62900C49378 /* kidzPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D4EC2A7EC62900C49378 /* kidzPlaygroundTests.swift */; };
 		A834D4F72A7EC62900C49378 /* kidzPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D4F62A7EC62900C49378 /* kidzPlaygroundUITests.swift */; };
 		A834D4F92A7EC62900C49378 /* kidzPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D4F82A7EC62900C49378 /* kidzPlaygroundUITestsLaunchTests.swift */; };
+		A834D5082A7ED33D00C49378 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D5072A7ED33D00C49378 /* Signup.swift */; };
+		A834D50A2A7ED37A00C49378 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D5092A7ED37A00C49378 /* Country.swift */; };
+		A834D50C2A7ED39B00C49378 /* CountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D50B2A7ED39B00C49378 /* CountryPicker.swift */; };
+		A834D50E2A7ED3BF00C49378 /* RoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A834D50D2A7ED3BF00C49378 /* RoundedCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		A834D4D82A7EC62900C49378 /* kidzPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidzPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A834D4DB2A7EC62900C49378 /* kidzPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidzPlaygroundApp.swift; sourceTree = "<group>"; };
-		A834D4DD2A7EC62900C49378 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A834D4DD2A7EC62900C49378 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
 		A834D4DF2A7EC62900C49378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A834D4E22A7EC62900C49378 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A834D4E82A7EC62900C49378 /* kidzPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidzPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		A834D4F22A7EC62900C49378 /* kidzPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kidzPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A834D4F62A7EC62900C49378 /* kidzPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidzPlaygroundUITests.swift; sourceTree = "<group>"; };
 		A834D4F82A7EC62900C49378 /* kidzPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kidzPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A834D5072A7ED33D00C49378 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		A834D5092A7ED37A00C49378 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		A834D50B2A7ED39B00C49378 /* CountryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryPicker.swift; sourceTree = "<group>"; };
+		A834D50D2A7ED3BF00C49378 /* RoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +103,13 @@
 			isa = PBXGroup;
 			children = (
 				A834D4DB2A7EC62900C49378 /* kidzPlaygroundApp.swift */,
-				A834D4DD2A7EC62900C49378 /* ContentView.swift */,
+				A834D4DD2A7EC62900C49378 /* SigninView.swift */,
 				A834D4DF2A7EC62900C49378 /* Assets.xcassets */,
 				A834D4E12A7EC62900C49378 /* Preview Content */,
+				A834D5072A7ED33D00C49378 /* Signup.swift */,
+				A834D5092A7ED37A00C49378 /* Country.swift */,
+				A834D50B2A7ED39B00C49378 /* CountryPicker.swift */,
+				A834D50D2A7ED3BF00C49378 /* RoundedCorners.swift */,
 			);
 			path = kidzPlayground;
 			sourceTree = "<group>";
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A834D4DE2A7EC62900C49378 /* ContentView.swift in Sources */,
+				A834D50A2A7ED37A00C49378 /* Country.swift in Sources */,
+				A834D50C2A7ED39B00C49378 /* CountryPicker.swift in Sources */,
+				A834D4DE2A7EC62900C49378 /* SigninView.swift in Sources */,
 				A834D4DC2A7EC62900C49378 /* kidzPlaygroundApp.swift in Sources */,
+				A834D50E2A7ED3BF00C49378 /* RoundedCorners.swift in Sources */,
+				A834D5082A7ED33D00C49378 /* Signup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
